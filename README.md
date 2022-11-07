@@ -12,20 +12,23 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+![Screenshot 2022-11-07 at 4 46 25 PM](https://user-images.githubusercontent.com/60170717/200265636-605b216a-835f-4c1c-aa79-97fcdafe6dcd.png)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## What can you do with the Note App:
+1. Add a new note
+2. Delete a note 
+3. Update a current note
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Note App is running on PostgreSQL on Prisma. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Tech Stack used: 
+1. NextJs
+2. Typescript
+3. Tailwind CSS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
